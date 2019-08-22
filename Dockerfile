@@ -1,3 +1,3 @@
 FROM python
-ADD main.py /
+COPY main.py /
 CMD ["python", "./main.py"]
