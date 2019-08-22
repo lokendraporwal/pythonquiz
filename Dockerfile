@@ -1,3 +1,3 @@
 FROM python
-ADD quiz.py /
-CMD ["python", "./quiz.py"]
+ADD main.py /
+CMD ["python", "./main.py"]
