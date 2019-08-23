@@ -1,6 +1,6 @@
 import json
 n=int(input("Enter 1 for sports \n Enter 2 for Maths : "))
-with open("./input/quiz.json",'r') as f:
+with open("quiz.json",'r') as f:
     dict=json.load(f)
 if n==1:
     result = 0;
